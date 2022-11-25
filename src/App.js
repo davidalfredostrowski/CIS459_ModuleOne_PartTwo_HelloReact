@@ -28,7 +28,7 @@ class App extends Component {
          const networkId = await web3.eth.net.getId();
 	 this.setState( { account : accounts[0] }) 
 	 console.log(account);
-         let jsonData = require('./SimpleStorage.json');
+         let jsonData = require('./Hello.json');
          var networkKey =  Object.keys(jsonData['networks'])[Object.keys(jsonData.networks).length-1] 
          const contract = new web3.eth.Contract(jsonData.abi); 
          contract.options.address = jsonData['networks'][networkId]["address"]
