@@ -1,7 +1,7 @@
 pragma solidity 0.5.16;
 
 // Store a single data point and allow fetching/updating of that datapoint
-contract SimpleStorage {
+contract Hello {
     
     // data point
     string public storedData;
