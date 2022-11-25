@@ -12,3 +12,29 @@ npm install web3  solc@0.4.25
 npm install create-react-app
 ./node_modules/.bin/create-react-app  hello
 
+
+
+/home/ubuntu/node_modules/.bin/truffle init 
+cd contracts
+vi Hello.sol
+vi truffle-config.js
+cd migrations
+vi 2_deploy_contract.js
+/home/ubuntu/node_modules/.bin/truffle deploy
+
+# copy Hello.json to src to be read!
+npm start      # good to go.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
