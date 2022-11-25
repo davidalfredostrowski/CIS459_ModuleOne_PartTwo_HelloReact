@@ -21,7 +21,7 @@ vi truffle-config.js
 cd migrations
 vi 2_deploy_contract.js
 /home/ubuntu/node_modules/.bin/truffle deploy
-
+vi src/App.js
 # copy Hello.json to src to be read!
 npm start      # good to go.
 
