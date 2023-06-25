@@ -13,7 +13,8 @@ npm install create-react-app
 ./node_modules/.bin/create-react-app  hello
 
 
-
+cd hello
+* make sure you are running truffle init in your project directory!!!!
 /home/ubuntu/node_modules/.bin/truffle init 
 cd contracts
 vi Hello.sol
