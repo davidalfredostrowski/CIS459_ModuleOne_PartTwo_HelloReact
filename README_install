@@ -28,6 +28,11 @@ vi 2_deploy_contract.js
 vi src/App.js
 # add the dns from the aws account
 # copy Hello.json to src to be read!
+# cd <project_dir>/build/contract
+# cp *.json ../..
+* cd ../..
+* cp *.json src
+
 
 npm start      # good to go.
 
